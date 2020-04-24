@@ -17,13 +17,6 @@ app.config['MYSQL_DB']='data'
 mysql=MySQL(app)
 
 
-# app.config['MAIL_SERVER']='nikhilagarwal82537@gmail.com'
-# app.config['MAIL_PORT']='465'
-# app.config['MAIL_USE_SSL']=True
-# app.config['MAIL_USERNAME']='your mail address'
-# app.config['MAIL_PASSWORD']='your mail password'
-
-# mail=Mail(app)
 
 
 
