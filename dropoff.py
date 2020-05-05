@@ -178,9 +178,7 @@ def dropoff_function():
 		final_msg="The best match we could find is :  "+space
 		print("listtttttttttt",recp_list)
 		maill(recp_list,final_msg)
-		# msg = Message('you found your partner', sender = 'easycabpooling@gmail.com', recipients = recp_list)
-		# msg.body = final_msg
-		# mail.send(msg)
+		
 		print("senttt")
 
 	cur.execute("Truncate table dropoff;")
